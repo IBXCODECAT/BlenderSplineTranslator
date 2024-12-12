@@ -5,6 +5,9 @@ import os
 script_directory = os.path.dirname(bpy.data.filepath)
 export_path = os.path.join(script_directory, "exported_model.gltf")
 
+# Set to object mode
+bpy.ops.object.mode_set(mode='OBJECT')
+
 # Select all objects in the scene for export
 bpy.ops.object.select_all(action='SELECT')
 
