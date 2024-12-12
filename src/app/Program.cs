@@ -1,10 +1,11 @@
-﻿namespace SplineIntegration
+﻿namespace SplineIntegration;
+
+internal class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        ModelParser.ParseModel("C:\\BlenderSplineTranslator\\Sample Blender Files\\exported_model.gltf");
+        Console.WriteLine("Press any key to close the program....");
+        Console.ReadKey();
     }
 }
