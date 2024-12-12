@@ -1,0 +1,6 @@
+1. Export Blender Data 
+2. Figure out what data spline requires
+3. Figure out how to parse blender data
+	- Materials
+4. Figure out how to format spline data
+5. Translate
